@@ -1,0 +1,1 @@
+/home/manny/workspace/savage/learning/rust/rustfinity/printing-hello-world/target/debug/libprinting_hello_world.rlib: /home/manny/workspace/savage/learning/rust/rustfinity/printing-hello-world/src/lib.rs

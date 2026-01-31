@@ -1,0 +1,10 @@
+/home/manny/workspace/savage/learning/rust/rustfinity/error-propagation/target/debug/deps/gear_dlmalloc-ed6436d3c7fe8cfe.d: /home/manny/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gear-dlmalloc-0.2.0/src/lib.rs /home/manny/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gear-dlmalloc-0.2.0/src/common.rs /home/manny/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gear-dlmalloc-0.2.0/src/dlmalloc.rs /home/manny/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gear-dlmalloc-0.2.0/src/dlverbose.rs /home/manny/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gear-dlmalloc-0.2.0/src/global.rs /home/manny/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gear-dlmalloc-0.2.0/src/linux.rs
+
+/home/manny/workspace/savage/learning/rust/rustfinity/error-propagation/target/debug/deps/libgear_dlmalloc-ed6436d3c7fe8cfe.rmeta: /home/manny/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gear-dlmalloc-0.2.0/src/lib.rs /home/manny/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gear-dlmalloc-0.2.0/src/common.rs /home/manny/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gear-dlmalloc-0.2.0/src/dlmalloc.rs /home/manny/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gear-dlmalloc-0.2.0/src/dlverbose.rs /home/manny/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gear-dlmalloc-0.2.0/src/global.rs /home/manny/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gear-dlmalloc-0.2.0/src/linux.rs
+
+/home/manny/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gear-dlmalloc-0.2.0/src/lib.rs:
+/home/manny/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gear-dlmalloc-0.2.0/src/common.rs:
+/home/manny/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gear-dlmalloc-0.2.0/src/dlmalloc.rs:
+/home/manny/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gear-dlmalloc-0.2.0/src/dlverbose.rs:
+/home/manny/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gear-dlmalloc-0.2.0/src/global.rs:
+/home/manny/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gear-dlmalloc-0.2.0/src/linux.rs:

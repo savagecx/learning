@@ -1,0 +1,12 @@
+/home/manny/workspace/savage/learning/rust/rustfinity/error-propagation/target/debug/deps/thiserror-91b8b4fbaedc7865.d: /home/manny/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-2.0.17/src/lib.rs /home/manny/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-2.0.17/src/aserror.rs /home/manny/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-2.0.17/src/display.rs /home/manny/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-2.0.17/src/var.rs /home/manny/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-2.0.17/src/private.rs /home/manny/workspace/savage/learning/rust/rustfinity/error-propagation/target/debug/build/thiserror-796b933ea7dcdee8/out/private.rs
+
+/home/manny/workspace/savage/learning/rust/rustfinity/error-propagation/target/debug/deps/libthiserror-91b8b4fbaedc7865.rmeta: /home/manny/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-2.0.17/src/lib.rs /home/manny/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-2.0.17/src/aserror.rs /home/manny/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-2.0.17/src/display.rs /home/manny/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-2.0.17/src/var.rs /home/manny/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-2.0.17/src/private.rs /home/manny/workspace/savage/learning/rust/rustfinity/error-propagation/target/debug/build/thiserror-796b933ea7dcdee8/out/private.rs
+
+/home/manny/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-2.0.17/src/lib.rs:
+/home/manny/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-2.0.17/src/aserror.rs:
+/home/manny/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-2.0.17/src/display.rs:
+/home/manny/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-2.0.17/src/var.rs:
+/home/manny/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-2.0.17/src/private.rs:
+/home/manny/workspace/savage/learning/rust/rustfinity/error-propagation/target/debug/build/thiserror-796b933ea7dcdee8/out/private.rs:
+
+# env-dep:OUT_DIR=/home/manny/workspace/savage/learning/rust/rustfinity/error-propagation/target/debug/build/thiserror-796b933ea7dcdee8/out

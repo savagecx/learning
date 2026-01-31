@@ -1,0 +1,9 @@
+/home/manny/workspace/savage/learning/rust/rustfinity/error-propagation/target/debug/deps/derive_more_impl-ef636300b02f193e.d: /home/manny/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/derive_more-impl-1.0.0/src/lib.rs /home/manny/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/derive_more-impl-1.0.0/src/utils.rs /home/manny/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/derive_more-impl-1.0.0/src/from.rs /home/manny/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/derive_more-impl-1.0.0/src/../README.md /home/manny/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/derive_more-impl-1.0.0/src/../doc/from.md
+
+/home/manny/workspace/savage/learning/rust/rustfinity/error-propagation/target/debug/deps/libderive_more_impl-ef636300b02f193e.so: /home/manny/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/derive_more-impl-1.0.0/src/lib.rs /home/manny/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/derive_more-impl-1.0.0/src/utils.rs /home/manny/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/derive_more-impl-1.0.0/src/from.rs /home/manny/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/derive_more-impl-1.0.0/src/../README.md /home/manny/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/derive_more-impl-1.0.0/src/../doc/from.md
+
+/home/manny/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/derive_more-impl-1.0.0/src/lib.rs:
+/home/manny/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/derive_more-impl-1.0.0/src/utils.rs:
+/home/manny/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/derive_more-impl-1.0.0/src/from.rs:
+/home/manny/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/derive_more-impl-1.0.0/src/../README.md:
+/home/manny/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/derive_more-impl-1.0.0/src/../doc/from.md:

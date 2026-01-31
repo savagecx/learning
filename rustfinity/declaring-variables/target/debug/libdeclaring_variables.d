@@ -1,0 +1,1 @@
+/home/manny/workspace/savage/learning/rust/rustfinity/declaring-variables/target/debug/libdeclaring_variables.rlib: /home/manny/workspace/savage/learning/rust/rustfinity/declaring-variables/src/lib.rs

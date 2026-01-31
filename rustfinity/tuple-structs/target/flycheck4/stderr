@@ -1,0 +1,57 @@
+   0.006663782s  INFO prepare_target{force=false package_id=tuple-structs v0.1.0 (/home/manny/workspace/savage/learning/rust/rustfinity/tuple-structs) target="tuple_structs"}: cargo::core::compiler::fingerprint: stale: changed "/home/manny/workspace/savage/learning/rust/rustfinity/tuple-structs/src/lib.rs"
+   0.006673147s  INFO prepare_target{force=false package_id=tuple-structs v0.1.0 (/home/manny/workspace/savage/learning/rust/rustfinity/tuple-structs) target="tuple_structs"}: cargo::core::compiler::fingerprint:           (vs) "/home/manny/workspace/savage/learning/rust/rustfinity/tuple-structs/target/debug/.fingerprint/tuple-structs-8729f84ecec52531/dep-lib-tuple_structs"
+   0.006675955s  INFO prepare_target{force=false package_id=tuple-structs v0.1.0 (/home/manny/workspace/savage/learning/rust/rustfinity/tuple-structs) target="tuple_structs"}: cargo::core::compiler::fingerprint:                FileTime { seconds: 1763191050, nanos: 613535937 } < FileTime { seconds: 1763191068, nanos: 383340142 }
+   0.006697733s  INFO prepare_target{force=false package_id=tuple-structs v0.1.0 (/home/manny/workspace/savage/learning/rust/rustfinity/tuple-structs) target="tuple_structs"}: cargo::core::compiler::fingerprint: fingerprint dirty for tuple-structs v0.1.0 (/home/manny/workspace/savage/learning/rust/rustfinity/tuple-structs)/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("tuple_structs", ["lib"], "/home/manny/workspace/savage/learning/rust/rustfinity/tuple-structs/src/lib.rs", Edition2021) }
+   0.006707807s  INFO prepare_target{force=false package_id=tuple-structs v0.1.0 (/home/manny/workspace/savage/learning/rust/rustfinity/tuple-structs) target="tuple_structs"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleItem(ChangedFile { reference: "/home/manny/workspace/savage/learning/rust/rustfinity/tuple-structs/target/debug/.fingerprint/tuple-structs-8729f84ecec52531/dep-lib-tuple_structs", reference_mtime: FileTime { seconds: 1763191050, nanos: 613535937 }, stale: "/home/manny/workspace/savage/learning/rust/rustfinity/tuple-structs/src/lib.rs", stale_mtime: FileTime { seconds: 1763191068, nanos: 383340142 } }))
+   0.006804750s  INFO prepare_target{force=false package_id=tuple-structs v0.1.0 (/home/manny/workspace/savage/learning/rust/rustfinity/tuple-structs) target="tuple_structs"}: cargo::core::compiler::fingerprint: stale: changed "/home/manny/workspace/savage/learning/rust/rustfinity/tuple-structs/src/lib.rs"
+   0.006808068s  INFO prepare_target{force=false package_id=tuple-structs v0.1.0 (/home/manny/workspace/savage/learning/rust/rustfinity/tuple-structs) target="tuple_structs"}: cargo::core::compiler::fingerprint:           (vs) "/home/manny/workspace/savage/learning/rust/rustfinity/tuple-structs/target/debug/.fingerprint/tuple-structs-c3291ef1022ead33/dep-test-lib-tuple_structs"
+   0.006810184s  INFO prepare_target{force=false package_id=tuple-structs v0.1.0 (/home/manny/workspace/savage/learning/rust/rustfinity/tuple-structs) target="tuple_structs"}: cargo::core::compiler::fingerprint:                FileTime { seconds: 1763191050, nanos: 613535937 } < FileTime { seconds: 1763191068, nanos: 383340142 }
+   0.006820933s  INFO prepare_target{force=false package_id=tuple-structs v0.1.0 (/home/manny/workspace/savage/learning/rust/rustfinity/tuple-structs) target="tuple_structs"}: cargo::core::compiler::fingerprint: fingerprint dirty for tuple-structs v0.1.0 (/home/manny/workspace/savage/learning/rust/rustfinity/tuple-structs)/Check { test: true }/TargetInner { name_inferred: true, ..: lib_target("tuple_structs", ["lib"], "/home/manny/workspace/savage/learning/rust/rustfinity/tuple-structs/src/lib.rs", Edition2021) }
+   0.006825753s  INFO prepare_target{force=false package_id=tuple-structs v0.1.0 (/home/manny/workspace/savage/learning/rust/rustfinity/tuple-structs) target="tuple_structs"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleItem(ChangedFile { reference: "/home/manny/workspace/savage/learning/rust/rustfinity/tuple-structs/target/debug/.fingerprint/tuple-structs-c3291ef1022ead33/dep-test-lib-tuple_structs", reference_mtime: FileTime { seconds: 1763191050, nanos: 613535937 }, stale: "/home/manny/workspace/savage/learning/rust/rustfinity/tuple-structs/src/lib.rs", stale_mtime: FileTime { seconds: 1763191068, nanos: 383340142 } }))
+   0.006891287s  INFO prepare_target{force=false package_id=tuple-structs v0.1.0 (/home/manny/workspace/savage/learning/rust/rustfinity/tuple-structs) target="tests"}: cargo::core::compiler::fingerprint: fingerprint error for tuple-structs v0.1.0 (/home/manny/workspace/savage/learning/rust/rustfinity/tuple-structs)/Check { test: true }/TargetInner { kind: "test", name: "tests", benched: false, ..: with_path("/home/manny/workspace/savage/learning/rust/rustfinity/tuple-structs/tests/tests.rs", Edition2021) }
+   0.006897336s  INFO prepare_target{force=false package_id=tuple-structs v0.1.0 (/home/manny/workspace/savage/learning/rust/rustfinity/tuple-structs) target="tests"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/manny/workspace/savage/learning/rust/rustfinity/tuple-structs/target/debug/.fingerprint/tuple-structs-0fcdb959262e4b19/test-integration-test-tests`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: cargo_util::paths::read_bytes
+   1: cargo_util::paths::read
+   2: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   3: cargo::core::compiler::fingerprint::prepare_target
+   4: cargo::core::compiler::compile
+   5: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   6: cargo::ops::cargo_compile::compile_ws
+   7: cargo::ops::cargo_compile::compile_with_exec
+   8: cargo::ops::cargo_compile::compile
+   9: cargo::commands::check::exec
+  10: <cargo::cli::Exec>::exec
+  11: cargo::main
+  12: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  13: std::rt::lang_start::<()>::{closure#0}
+  14: core::ops::function::impls::<impl core::ops::function::FnOnce<A> for &F>::call_once
+             at /rustc/f8297e351a40c1439a467bbbb6879088047f50b3/library/core/src/ops/function.rs:287:21
+  15: std::panicking::catch_unwind::do_call
+             at /rustc/f8297e351a40c1439a467bbbb6879088047f50b3/library/std/src/panicking.rs:590:40
+  16: std::panicking::catch_unwind
+             at /rustc/f8297e351a40c1439a467bbbb6879088047f50b3/library/std/src/panicking.rs:553:19
+  17: std::panic::catch_unwind
+             at /rustc/f8297e351a40c1439a467bbbb6879088047f50b3/library/std/src/panic.rs:359:14
+  18: std::rt::lang_start_internal::{{closure}}
+             at /rustc/f8297e351a40c1439a467bbbb6879088047f50b3/library/std/src/rt.rs:175:24
+  19: std::panicking::catch_unwind::do_call
+             at /rustc/f8297e351a40c1439a467bbbb6879088047f50b3/library/std/src/panicking.rs:590:40
+  20: std::panicking::catch_unwind
+             at /rustc/f8297e351a40c1439a467bbbb6879088047f50b3/library/std/src/panicking.rs:553:19
+  21: std::panic::catch_unwind
+             at /rustc/f8297e351a40c1439a467bbbb6879088047f50b3/library/std/src/panic.rs:359:14
+  22: std::rt::lang_start_internal
+             at /rustc/f8297e351a40c1439a467bbbb6879088047f50b3/library/std/src/rt.rs:171:5
+  23: main
+  24: __libc_start_call_main
+             at ./csu/../sysdeps/nptl/libc_start_call_main.h:58:16
+  25: __libc_start_main_impl
+             at ./csu/../csu/libc-start.c:360:3
+  26: <unknown>
+    Checking tuple-structs v0.1.0 (/home/manny/workspace/savage/learning/rust/rustfinity/tuple-structs)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.10s
