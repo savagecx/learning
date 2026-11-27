@@ -1,0 +1,24 @@
+fn describe_types() -> String {
+    let meaning = 42;
+    let pi = 3.14;
+    let positive = true;
+    let z = 'Z';
+    let tup = (7, "Rust");
+
+    format!("int: {meaning}, float: {pi}, bool: {positive}, char: {z}, tuple: {tup:?}")
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn test_describe_types() {
+        let output = describe_types();
+        assert!(output.contains("int: 42"));
+        assert!(output.contains("float: 3.14"));
+        assert!(output.contains("bool: true"));
+        assert!(output.contains("char: Z"));
+        assert!(output.contains("tuple: (7, \"Rust\")"));
+    }
+}

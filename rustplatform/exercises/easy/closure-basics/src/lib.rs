@@ -1,0 +1,106 @@
+// TODO: Implement make_adder
+// Returns a closure that adds n to its argument
+// Hint: Use `move` to capture n by value
+fn make_adder(n: i32) -> impl Fn(i32) -> i32 {
+    // Your code here
+    todo!()
+}
+
+// TODO: Implement make_multiplier
+// Returns a closure that multiplies its argument by n
+fn make_multiplier(n: i32) -> impl Fn(i32) -> i32 {
+    // Your code here
+    todo!()
+}
+
+// TODO: Implement apply_twice
+// Applies closure f to x twice: f(f(x))
+// Hint: F needs to implement Fn(i32) -> i32
+fn apply_twice<F>(f: F, x: i32) -> i32
+where
+    F: Fn(i32) -> i32,
+{
+    // Your code here
+    todo!()
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn test_make_adder_positive() {
+        let add_5 = make_adder(5);
+        assert_eq!(add_5(10), 15);
+    }
+
+    #[test]
+    fn test_make_adder_negative() {
+        let add_neg = make_adder(-3);
+        assert_eq!(add_neg(10), 7);
+    }
+
+    #[test]
+    fn test_make_adder_zero() {
+        let add_0 = make_adder(0);
+        assert_eq!(add_0(42), 42);
+    }
+
+    #[test]
+    fn test_make_adder_multiple_calls() {
+        let add_2 = make_adder(2);
+        assert_eq!(add_2(1), 3);
+        assert_eq!(add_2(5), 7);
+        assert_eq!(add_2(10), 12);
+    }
+
+    #[test]
+    fn test_make_multiplier_positive() {
+        let times_3 = make_multiplier(3);
+        assert_eq!(times_3(4), 12);
+    }
+
+    #[test]
+    fn test_make_multiplier_zero() {
+        let times_0 = make_multiplier(0);
+        assert_eq!(times_0(100), 0);
+    }
+
+    #[test]
+    fn test_make_multiplier_negative() {
+        let times_neg = make_multiplier(-2);
+        assert_eq!(times_neg(5), -10);
+    }
+
+    #[test]
+    fn test_make_multiplier_one() {
+        let times_1 = make_multiplier(1);
+        assert_eq!(times_1(42), 42);
+    }
+
+    #[test]
+    fn test_apply_twice_increment() {
+        assert_eq!(apply_twice(|x| x + 1, 5), 7);
+    }
+
+    #[test]
+    fn test_apply_twice_double() {
+        assert_eq!(apply_twice(|x| x * 2, 3), 12);
+    }
+
+    #[test]
+    fn test_apply_twice_with_adder() {
+        let add_10 = make_adder(10);
+        assert_eq!(apply_twice(add_10, 0), 20);
+    }
+
+    #[test]
+    fn test_apply_twice_square() {
+        assert_eq!(apply_twice(|x| x * x, 2), 16);
+    }
+
+    #[test]
+    fn test_apply_twice_identity() {
+        assert_eq!(apply_twice(|x| x, 42), 42);
+    }
+}

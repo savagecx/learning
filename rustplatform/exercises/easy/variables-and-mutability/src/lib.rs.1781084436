@@ -1,0 +1,19 @@
+fn double_counter() -> i32 {
+    let mut counter = 1;
+
+    for _ in 0..5 {
+        counter *= 2;
+    }
+
+    counter
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn test_double_counter() {
+        assert_eq!(double_counter(), 32);
+    }
+}

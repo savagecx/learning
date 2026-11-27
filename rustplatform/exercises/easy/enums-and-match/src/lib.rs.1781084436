@@ -1,0 +1,33 @@
+enum TrafficLight {
+    Red,
+    Yellow,
+    Green,
+}
+
+fn action(light: TrafficLight) -> &'static str {
+    match light {
+        TrafficLight::Red => "stop",
+        TrafficLight::Yellow => "slow down",
+        TrafficLight::Green => "go",
+    }
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn test_red_light() {
+        assert_eq!(action(TrafficLight::Red), "stop");
+    }
+
+    #[test]
+    fn test_yellow_light() {
+        assert_eq!(action(TrafficLight::Yellow), "slow down");
+    }
+
+    #[test]
+    fn test_green_light() {
+        assert_eq!(action(TrafficLight::Green), "go");
+    }
+}

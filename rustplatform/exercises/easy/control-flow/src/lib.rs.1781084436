@@ -1,0 +1,43 @@
+fn grade_message(score: i32) -> String {
+    let grade = if score >= 90 {
+        "Excellent"
+    } else if score >= 75 {
+        "Good"
+    } else if score >= 50 {
+        "Pass"
+    } else {
+        "Fail"
+    };
+
+    match grade.chars().next() {
+        Some('E') => return String::from("Top"),
+        Some('G') => return String::from("Decent"),
+        Some('P') => return String::from("Basic"),
+        _ => return String::from("None"),
+    }
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn test_top() {
+        assert_eq!(grade_message(95), "Top");
+    }
+
+    #[test]
+    fn test_decent() {
+        assert_eq!(grade_message(78), "Decent");
+    }
+
+    #[test]
+    fn test_basic() {
+        assert_eq!(grade_message(52), "Basic");
+    }
+
+    #[test]
+    fn test_none() {
+        assert_eq!(grade_message(10), "None");
+    }
+}
