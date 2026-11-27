@@ -1,1 +1,1 @@
-/home/manny/workspace/savage/learning/rust/rustfinity/unit-structs/target/debug/unit-structs: /home/manny/workspace/savage/learning/rust/rustfinity/unit-structs/src/lib.rs /home/manny/workspace/savage/learning/rust/rustfinity/unit-structs/src/main.rs
+/home/manny/workspace/savage/learning/rustfinity/unit-structs/target/debug/unit-structs: /home/manny/workspace/savage/learning/rustfinity/unit-structs/src/lib.rs /home/manny/workspace/savage/learning/rustfinity/unit-structs/src/main.rs

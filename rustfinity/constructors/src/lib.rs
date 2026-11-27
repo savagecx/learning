@@ -1,15 +1,15 @@
 pub struct Book {
     pub title: String,
     pub author: String,
-    pub year: i64,
-    pub likes: i64,
+    pub year: i16,
+    pub likes: u32,
 }
 
 impl Book {
-    pub fn new(title: &str, author: &str, year: i64) -> Book {
+    pub fn new(title: &str, author: &str, year: i16) -> Book {
         Book {
-            title: title.to_string(),
-            author: author.to_string(),
+            title: String::from(title),
+            author: String::from(author),
             year,
             likes: 0,
         }

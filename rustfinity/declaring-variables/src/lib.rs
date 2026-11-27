@@ -1,6 +1,6 @@
 pub fn calculate_area() -> u32 {
-    let width: u32 = 5;
-    let height: u32 = 10;
+    let width: u32 = 3;
+    let height: u32 = 5;
     prints_values(width, height);
     width * height
 }

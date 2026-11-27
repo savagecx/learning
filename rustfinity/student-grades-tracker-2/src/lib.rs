@@ -1,5 +1,4 @@
 use std::collections::HashMap;
-use std::ops::Div;
 
 pub struct Student {
     pub name: String,
@@ -12,11 +11,10 @@ impl Student {
     }
 
     pub fn average_grade(&self) -> f64 {
-        let num_grades = self.grades.len();
-        if num_grades == 0 {
-            return 0.0_f64;
+        if self.grades.is_empty() {
+            return 0.0;
         }
-        f64::from(self.grades.iter().sum::<u8>()).div(num_grades as f64)
+        self.grades.iter().map(|&grade| grade as u32).sum::<u32>() as f64 / self.grades.len() as f64
     }
 }
 

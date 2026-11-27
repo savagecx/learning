@@ -2,10 +2,11 @@ pub struct Logger;
 
 impl Logger {
     pub fn log_message(message: &str) {
-        println!("[LOG]: {message}")
+        println!("[LOG]: {message}");
     }
 }
 
+// Example usage:
 pub fn main() {
     Logger::log_message("Hello, World!");
 }

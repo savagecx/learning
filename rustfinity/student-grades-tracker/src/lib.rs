@@ -1,8 +1,8 @@
 use std::collections::HashMap;
 
 pub struct Student {
-    name: String,
-    grades: Vec<u8>,
+    pub name: String,
+    pub grades: Vec<u8>,
 }
 
 pub struct StudentGrades {
@@ -24,9 +24,9 @@ impl StudentGrades {
     }
 
     pub fn add_grade(&mut self, name: &str, grade: u8) {
-        self.students
-            .entry(name.to_string())
-            .and_modify(|student| student.grades.push(grade));
+        if let Some(student) = self.students.get_mut(name) {
+            student.grades.push(grade);
+        }
     }
 
     pub fn get_grades(&self, name: &str) -> &[u8] {

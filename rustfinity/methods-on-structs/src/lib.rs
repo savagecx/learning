@@ -1,9 +1,6 @@
-// 1. Define the struct
 pub struct Counter {
     count: i32,
 }
-
-// 2. Implement the associated function and methods
 
 impl Counter {
     pub fn new() -> Counter {

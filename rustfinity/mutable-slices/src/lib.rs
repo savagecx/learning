@@ -1,9 +1,5 @@
 pub fn transform_even_odd(slice: &mut [i32]) {
-    for num in slice.iter_mut() {
-        if *num % 2 == 0 {
-            *num *= 2;
-        } else {
-            *num -= 1;
-        }
-    }
+    slice
+        .iter_mut()
+        .for_each(|x| if *x % 2 == 0 { *x *= 2 } else { *x -= 1 })
 }
